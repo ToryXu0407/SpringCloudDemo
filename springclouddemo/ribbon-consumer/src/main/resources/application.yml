@@ -1,0 +1,10 @@
+server:
+  port: 9111
+
+spring:
+  application:
+    name: ribbon-consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:1111/eureka/

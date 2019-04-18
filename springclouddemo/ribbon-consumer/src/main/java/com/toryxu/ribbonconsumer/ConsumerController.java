@@ -23,4 +23,10 @@ public class ConsumerController {
     public String helloConsumer(){
        return helloService.helloService();
     }
+
+    @RequestMapping(value="/getUser",method=RequestMethod.GET)
+    public String getUser(Long id){
+//        UserCommand userCommand(helloService,id);
+        return null;
+    }
 }

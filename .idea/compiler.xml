@@ -6,11 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eurekaclient2" />
+        <module name="eurekaserver" />
+        <module name="feign-consumer" />
+        <module name="hystrix-dashboard" />
+        <module name="kafkademo" />
+        <module name="rabbitmqdemo" />
+        <module name="redisdemo" />
+        <module name="ribbon-consumer" />
         <module name="springclouddemo" />
+        <module name="turbine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eurekaclient2" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="juhefather" target="1.8" />
+      <module name="juheson" target="1.8" />
+      <module name="kafkademo" target="1.8" />
+      <module name="rabbitmqdemo" target="1.8" />
+      <module name="redisdemo" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
       <module name="springclouddemo" target="1.8" />
+      <module name="turbine" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
